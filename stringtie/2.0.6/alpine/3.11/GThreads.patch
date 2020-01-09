@@ -1,0 +1,10 @@
+--- stringtie-2.0.6/gclib/GThreads.h	2019-12-17 01:21:55.000000000 +1000
++++ stringtie-2.0.6-alpine/gclib/GThreads.h	2020-01-08 15:15:59.672706003 +1000
+@@ -106,6 +106,7 @@
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include <errno.h>
++#include <stdint.h>
+ 
+ /// TinyThread++ version (major number).
+ #define TINYTHREAD_VERSION_MAJOR 1
